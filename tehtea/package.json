@@ -1,7 +1,6 @@
 {
   "name": "tehtea",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.1.2",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
