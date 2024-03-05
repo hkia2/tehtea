@@ -1,0 +1,25 @@
+{
+  "name": "tehtea",
+  "version": "1.1.4",
+  "description": "myteaa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hkia2/tehtea.git"
+  },
+  "keywords": [
+    "tehtea"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hkia2/tehtea/issues"
+  },
+  "homepage": "https://github.com/hkia2/tehtea#readme",
+  "dependencies": {
+    "mayteaa": "^1.0.0"
+  }
+}
