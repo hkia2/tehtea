@@ -1,14 +1,33 @@
 {
   "name": "tehtea",
-  "version": "1.0.6",
-  "description": "myteaa",
-  "main": "index.js",
+  "version": "1.1.5",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.1"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hkia2/tehtea.git"
+    "url": "https://github.com/hkia2/tehtea"
   },
   "keywords": [
     "tehtea"
@@ -18,8 +37,5 @@
   "bugs": {
     "url": "https://github.com/hkia2/tehtea/issues"
   },
-  "homepage": "https://github.com/hkia2/tehtea#readme",
-  "dependencies": {
-    "mayteaa": "^1.0.0"
-  }
+  "homepage": "https://github.com/hkia2/tehtea#readme"
 }
